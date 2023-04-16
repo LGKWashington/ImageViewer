@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,7 @@
     <value>Italic</value>
   </data>
   <data name="AboutTB.Text" xml:space="preserve">
-    <value>By Washington</value>
+    <value>By Washington, Project address :</value>
   </data>
   <data name="AppName" xml:space="preserve">
     <value>Image Viewer</value>
