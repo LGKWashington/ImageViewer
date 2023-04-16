@@ -1,4 +1,4 @@
-﻿<Page
+<Page
     x:Class="ImageViewer.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -25,6 +25,9 @@
             </Button>
         </StackPanel>
         <Button Content="100%" Click="Button_Click_3" FontSize="15" HorizontalAlignment="Center" x:Uid="RSTBT"/>
-        <TextBlock x:Uid="AboutTB" FontStyle="Normal" HorizontalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock x:Uid="AboutTB" FontStyle="Normal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <HyperlinkButton Content="https://github.com/LGKWashington/ImageViewer" NavigateUri="http://github.com/LGKWashington/ImageViewer"/>
+        </StackPanel>
     </StackPanel>
 </Page>
